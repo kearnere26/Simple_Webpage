@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FF BobaTea - Products</title>
+		
+		<link rel ="stylesheet" type = "text/css" href = "ProductLayout.css">
+		
+	</head>
+	<body>
+	<table class = "Navigation">
+			<tr>			
+				<td><a href="index.html">Homepage</a></td>
+				<td><a href="product_rek.html">Products</a></td>
+				<td><a href="about_rek.html">About Us</a></td>	
+				<td><a href="contact_rek.html">Contact Us</a></td>				
+			</tr>	
+	</table>
+	<h1>Final Fantasy BobaTea</h1>
+	<img src = "ffxiv-shadowbringers-art-1.jpg" style = "height: auto; width: 30%" alt="FFXIV picture">
+	<h2>Our Products</h2>
+	<hr>
+	
+	<form>
+		<table class = "table1">
+			<thead>
+			<tr>
+				<th><a href = "javascript:sortByID( )" >Product ID</a></th>
+				<th><a> </a></th>
+				<th><a href = "javascript:sortByName( )">Product Name</a></th>
+				<th><a style="text-decoration-line: underline">Product Description</a></th>
+				<th><a href = "javascript:sortByPrice( )">Product Price</a></th>
+				<th><a style="text-decoration-line: underline">Quantity</a></th>		
+			</tr>		
+			</thead>
+			<tbody id = "items" style = "color: black;">
+			</tbody>
+		</table>
+		</p>
+		</div>
+		<p>
+			<input type = "submit" value="Confirm" onclick = "confirmQty();">
+			<input type = "reset" onclick = "confirmReset();">
+		
+		</p>
+		<script src = "ProductCode.js"></script>
+		
+	</form>
+	</body>
+
+
+
+
+
+</html>

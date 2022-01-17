@@ -1,0 +1,63 @@
+#items
+{
+    border: solid;
+    color: lightgray;
+}
+
+table.table1 { margin-left: auto;
+	margin-right: auto;}
+	
+table.table1 tr
+{
+	padding: auto;
+    border: solid;
+    height: 50px;
+	text-align: center;
+}
+
+table.table1 td
+{
+    border: solid;
+    height: 50px;
+	
+}
+table.Navigation { margin: 0;
+		padding-left: 0;
+		width: 50%;
+		background-color: pink;}
+
+img{
+    
+    width: 190px;
+}
+table.Navigation tr a{font-size: 1.2em;
+	 display: block;
+	 color: black;
+	 padding: 2% 4%;
+	 text-decoration: none;}
+
+table.Navigation td a:hover {background-color: red;
+			color: white;}
+			
+th a{font-size: 1em;
+	 display: block;
+	 color: black;
+	 padding: 2% 4%;}
+		
+			
+body{
+	margin-left: 20%; 
+	margin-right: 20%; 
+	background-color: pink;}	
+h1{
+	padding-left: 25%; 
+	padding-right: 5%;
+	color: black;
+	float: left;
+	}
+h2{
+	text-align: center; 
+	color: black;
+	}		
+
+p {padding-left: 45%;}	

@@ -1,0 +1,85 @@
+[
+	{
+	"ProdID": 1,
+	"ProdImg":"MoogleCake.jpg",
+	"ProdName": "Moogle Cake",
+	"ProdDesc": "Delicious chocolate cake in the shape of a Final Fantasy Moogle served by the slice, Enjoy!",
+	"ProdPrice": 2.30,
+	"ProdQty": 0	
+	},
+	
+	{
+	"ProdID": 2,
+	"ProdImg":"WoLTeas.jpg",
+	"ProdName": "WoL Boba",
+	"ProdDesc": "Signature milk teas different flavors, Enjoy!",
+	"ProdPrice": 3.50,
+	"ProdQty": 0	
+	},
+	
+	{
+	"ProdID": 3,
+	"ProdImg":"Gyoza.jpg",
+	"ProdName": "Gyoza",
+	"ProdDesc": "Hot and ready pot stickers filled with beef, Enjoy!",
+	"ProdPrice": 4.20,
+	"ProdQty": 0	
+	},
+	
+	{
+	"ProdID": 4,
+	"ProdImg":"BlazeBoba.jpg",
+	"ProdName": "Blaze Boba",
+	"ProdDesc": "Enhanced fire magic blaze but in the form of a milk tea, live the fantasy!",
+	"ProdPrice": 3.80,
+	"ProdQty": 0	
+	},
+	{
+	"ProdID": 5,
+	"ProdImg":"Ramen.jpg",
+	"ProdName": "Ramen",
+	"ProdDesc": "Tastey Ramen with chicken cutlets, scallions and boiled egg, Enjoy!",
+	"ProdPrice": 6.30,
+	"ProdQty": 0	
+	},
+	{
+	"ProdID": 6,
+	"ProdImg":"bobaCoffee_Frap.jpg",
+	"ProdName": "Boba Coffee/Frappuccino",
+	"ProdDesc": "Not in the mood for milk tea then have a Boba Coffee or Boba Frappuccino!",
+	"ProdPrice": 4.00,
+	"ProdQty": 0	
+	},
+	{
+	"ProdID": 7,
+	"ProdImg":"BobaCakes.jpg",
+	"ProdName": "Boba Cake",
+	"ProdDesc": "Delicious Boba Cake, have a taste!",
+	"ProdPrice": 3.00,
+	"ProdQty": 0	
+	},
+	{
+	"ProdID": 8,
+	"ProdImg":"Macarons.jpg",
+	"ProdName": "Boba Macaroons",
+	"ProdDesc": "Delicious Boba Macaroons, have a taste!",
+	"ProdPrice": 2.00,
+	"ProdQty": 0	
+	},
+	{
+	"ProdID": 9,
+	"ProdImg":"Mooncakea.jpg",
+	"ProdName": "Boba Mini Cakes",
+	"ProdDesc": "Cute mini Boba cakes!",
+	"ProdPrice": 2.00,
+	"ProdQty": 0
+	},
+	{
+	"ProdID": 10,
+	"ProdImg":"LavendarBoba.jpg",
+	"ProdName": "Lavender Boba",
+	"ProdDesc": "Calm and relaxing Lavender BobaTea with ginseng!",
+	"ProdPrice": 4.00,
+	"ProdQty": 0
+	}
+]

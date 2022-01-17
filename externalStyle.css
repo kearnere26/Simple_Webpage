@@ -1,0 +1,47 @@
+			
+h1{
+	text-align: center; 
+	color: black;
+	}	
+			
+p{
+	font-size: 105%; 
+	color: black; 
+	text-align: justify;
+	padding-right: 2%;}
+			
+body{
+	margin-left: 20%; 
+	margin-right: 20%; 
+	background-color: pink;}	
+			
+div{
+	float: left; 
+	width: 70%;
+	padding-bottom: 10%;}
+.two{padding-top: 5%;
+	}
+			
+img{
+	height: auto; 
+	width: 30%;}	
+
+table { margin: 0;
+		padding: 0;
+		width: 50%;
+		background-color: pink;}
+
+tr a{font-size: 1.2em;
+	 display: block;
+	 color: black;
+	 padding: 2% 4%;
+	 text-decoration: none;}
+
+td a:hover {background-color: red;
+			color: white;}
+			
+
+
+	 
+	 
+			

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FF BobaTea Homepage</title>
+		<link rel ="stylesheet" type = "text/css" href = "externalStyle.css">
+		<script type = "text/Javascript">
+			var cname, cvalue, x, expire, roundUP, roundedValue;
+			var d = new Date();  			
+			function createCookie(cname, cvalue, expDays) {				
+				d.setTime(d.getTime() + (expDays * 24 * 60 * 60 * 1000));
+				expire = "expires = " + d.toUTCString();
+				document.cookie = cname + "=" + cvalue + ";" + expire;
+			}
+			
+			function readCookie(cname) {
+				var keyName = cname + "=";
+				var cArray = document.cookie.split(';');
+				for(var i = 0; i < cArray.length; i++) {
+					x = cArray[i];
+					while(x.charAt(0) == ' ') {
+						x = x.substring(1);
+					}
+					if(x.indexOf(keyName) == 0) {
+						return x.substring(keyName.length, x.length);
+					}
+				}
+				return "";
+			}
+			
+			function checkCookie() {
+				var user = readCookie("userName");
+				if(user != "") {
+					displayCookie("existing", user);
+					
+				}
+				else {					
+					displayCookie("empty", user);					
+				}
+				setTimeout(generateRandom, 5000);
+				
+			}
+			
+			function clickedLink(user) {
+				user = prompt("Please enter your name:", "");
+				if(user != "" && user != null) {
+					createCookie("userName", user, 7);
+					displayCookie("new", user);
+				}	
+			}
+			
+			function displayCookie(userType, user) {
+				if(userType == "empty") {
+					document.getElementById('stuff').textContent = 'Welcome, want a more personalized experience on our website?';
+					document.getElementById('anchorText').textContent = 'Please click here to provide your name.';					
+						
+				}
+				else if (userType == "new") {
+					document.getElementById('stuff').textContent = 'Welcome, ' + user + ' we hope you will enjoy your Final Fantasy BobaTea experience!';
+					document.getElementById('anchorText').textContent = ' ';
+					
+				}
+				else if(userType == "existing") {
+					document.getElementById('stuff').textContent = 'Welcome, ' + user + ' we hope you will enjoy your Final Fantasy BobaTea experience!';
+					document.getElementById('anchorText').textContent = 'Please click here if you are not ' + user + '.';
+				}
+			}
+			function generateRandom(){
+				roundedValue = Math.ceil(Math.random() *10);
+				if(roundedValue % 5 == 0) {
+					if(confirm("You have been randomly selected to participate in a customer satisfaction survey.")){
+						window.location.href = "4315_lab1_REK6421.html";
+					}					
+				}
+				
+			}
+			
+		</script>
+	</head>
+	<body onload = "checkCookie()">
+		<table>
+			<tr>			
+				<td><a href="index.html">Homepage</a></td>
+				<td><a href="product_rek.html">Products</a></td>
+				<td><a href="about_rek.html">About Us</a></td>	
+				<td><a href="contact_rek.html">Contact Us</a></td>							
+			</tr>	
+		</table>
+	<h1>Thank you for choosing Final Fantasy BobaTea</h1>		
+		
+		<div>
+			<p>Hello fellow Adventure, thank you again for deciding to do business with us, either you are a fan or someone curious about 
+			Final Fantasy either way we are happy to serve you. We are a newly established company here to provide a different kind of 
+			experience when it comes to enjoying one of your favorite drinks along with providing a great fandom experience. Our products 
+			include themed Boba Tea after some of your beloved characters with a specialty drink each week which will encompass the theme of 
+			an entire game in the series. It does not stop just there we also provide pastry items, ramen and gyoza in various shapes and sizes 
+			with crowd favorites modeled after a Moogle or Chocobo! Come enjoy a delicious drink along with the opportunity to socialize with 
+			other like-minded people, See You Soon! </p>		
+		</div>
+		<img src = "ffxiv-shadowbringers-art-1.jpg" style = "padding-top: 5%" alt="FFXIV picture">
+		
+		
+		<div class = "two">
+			<p id = "stuff"></p>
+			<a href = "Javascript:clickedLink()" id = "anchorText"></a>
+		</div>
+		<img src = "Moogle_Boba.jpg" style = "padding-top: 10%" alt="FFXIV picture">
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
